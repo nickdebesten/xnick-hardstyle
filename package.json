@@ -17,7 +17,7 @@
     "ffmpeg-binaries": "^4.0.0",
     "opusscript": "^0.0.6",
     "ytdl-core": "^0.25.2",
-    "node.js": "^0.25.2"
+    "node.js": "^10.15.3"
   },
   "devDependencies": {}
 }
