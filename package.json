@@ -1,19 +1,22 @@
 {
-  "name": "xnick hardstyle",
+  "name": "nick",
   "version": "1.0.0",
-  "description": "hardstyle ",
-  "main": "index.js",
+  "description": "create by nick",
+  "main": "server.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "Echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "install": "node-gyp rebuild"
   },
-  "author": "xNick Development",
+  "author": "nick",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.3.0",
+    "discord.js": "^11.4.2",
+    "express": "^4.16.3",
     "ffmpeg": "0.0.4",
-    "ffmpeg-binaries": "3.2.2-3",
-    "opusscript": "0.0.4",
-    "ytdl-core": "^0.20.2"
+    "ffmpeg-binaries": "^4.0.0",
+    "opusscript": "^0.0.6",
+    "ytdl-core": "^0.25.2"
   },
   "devDependencies": {}
 }
