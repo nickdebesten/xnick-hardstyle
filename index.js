@@ -12,7 +12,7 @@ setInterval(() => {
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const ytdl = require('ytdl-core');
-const watch = require('./watch.json')
+//const watch = require('./watch.json')
 var prefix = "m!"
 var servers = {};
 var search = require('youtube-search');
@@ -102,6 +102,5 @@ client.on('message', message => {
     }
   }
 });
-
 
 client.login(process.env.TOKEN);
